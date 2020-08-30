@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9c32b4">
+
+    <Button
+        android:id="@+id/id_camOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:text="CAMERA"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/id_galleryOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="141dp"
+        android:text="GALLERY"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="381dp"
+        android:layout_height="106dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/background_light"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Where would you like to get your image from?"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
